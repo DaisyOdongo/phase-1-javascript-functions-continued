@@ -7,8 +7,8 @@ function mondayWork(goToTheOffice = 'go to the office'){
     return `This Monday, I will ${goToTheOffice}.`
    
 }
-function wrapAdjective(flair = '*') {
+function wrapAdjective(door = '*') {
    return function (name, adverb = "special") {
-     return (`You are ${flair}${name}${flair}!`)
+     return (`You are ${door}${name}${door}!`)
    };
    }
